@@ -15,6 +15,23 @@ body {
     font-weight: 700;
 }
 
+.primary-title {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.primary-blog {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
 /* nav related styles */
 .humburger {
     display: none;
@@ -92,6 +109,7 @@ body {
     justify-content: center;
 }
 
+
 .first-container {
     padding: 100px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13.png);
@@ -161,6 +179,27 @@ body {
 
 /* header related styles end */
 
+
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.popular-tour {
+    text-align: start;
+    height: 400px;
+    width: 1000px;
+    padding: 24px;
+
+}
+
+.popular-img {
+    height: 550px;
+    width: 600px;
+    padding: 24px;
+}
+
 /* responsive the website for mobile */
 @media screen and (max-width:576px) {
     .humburger {
@@ -178,13 +217,14 @@ body {
         height: 36px;
     }
 
-    .first-container {
+    .first-container{
         width: 335px;
         height: 483px;
-       padding: 24px;
+        padding: 24px;
     }
 
-    .banner-box {
+    .banner-box,
+    .second-container {
         flex-direction: column;
         height: auto;
         width: 287px;
@@ -213,5 +253,30 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: 21px;
+    }
+
+    /* second container */
+    .popular-tour>p,
+    h2,
+    li {
+        color: #131318;
+        text-align: start;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .popular-tour{
+        width: 335px;
+        height: 850px;
+        padding: 24px;
+    }
+    .popular-img{
+        width: 335px;
+        height: 483px;
+    }
+    .popular-img> img{
+        width: 100%;
+        height: 100%;
     }
 }
