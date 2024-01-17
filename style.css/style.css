@@ -423,8 +423,9 @@ body {
     margin: 0px;
 }
 
+
 /* footer realted styles */
-.footer-section{ 
+.footer-section {
     margin-top: 50px;
     background-color: rgba(19, 19, 24, 0.05);
 }
@@ -456,11 +457,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    
+
 }
-#for-line{
+
+#for-line {
     border-bottom: 1px solid rgba(19, 19, 24, 0.10);
 }
+
 .icon {
     display: flex;
     flex-direction: row-reverse;
@@ -561,12 +564,13 @@ body {
         width: 335px;
         height: 483px;
     }
-    .popular-video{
+
+    .popular-video {
         width: 335px;
         height: 483px;
     }
-    
-    .popular-video > video{
+
+    .popular-video>video {
         width: 100%;
         height: 100%;
     }
