@@ -423,6 +423,52 @@ body {
     margin: 0px;
 }
 
+/* footer realted styles */
+.footer-section{ 
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-head {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-img {
+    height: 56.008px;
+    width: 48px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.footer-blog {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.icon-footer {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
 
 
 /* responsive the website for mobile */
@@ -554,10 +600,12 @@ body {
         width: 290px;
         height: auto;
     }
+
     .fifth-img {
         width: 380px;
         height: 330px;
     }
+
     .sub-input input[type="text"],
     .sub-input [type="email"] {
         display: block;
@@ -621,6 +669,10 @@ body {
     }
 
 
-
-
+    /* footer related styles */
+    .icon-footer {
+        width: 19.888px;
+        height: 15.999px;
+        flex-shrink: 0;
+    }
 }
