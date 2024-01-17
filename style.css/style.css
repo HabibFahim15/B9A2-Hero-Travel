@@ -156,6 +156,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
 .btn-img {
@@ -287,7 +288,6 @@ body {
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr;
-    border: 2px solid black;
     gap: 24px;
     height: 900px;
     width: 1500px;
@@ -330,6 +330,100 @@ body {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* fifth section related styles */
+.fifth-main-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fifth-container {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 400px;
+    width: 600px;
+    padding: 40px;
+}
+
+.sub-input input[type="text"],
+.sub-input [type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    width: 350px;
+    height: 50px;
+}
+
+
+.sub-title {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-blog {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    padding-bottom: 5px;
+}
+
+.fifth-img {
+    height: 480px;
+    width: 700px;
+}
+
+.fifth-img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.sub-off {
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: white;
+    position: relative;
+    bottom: 175px;
+    left: 368px;
+    transform: rotate(-19.628deg);
+}
+
+.sub-off>h2 {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.sub-off>h1 {
+    padding: 10px;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin: 0px;
+}
+
+
 
 /* responsive the website for mobile */
 @media screen and (max-width:576px) {
@@ -357,7 +451,8 @@ body {
     .banner-box,
     .second-container,
     .box-child,
-    .box-item {
+    .box-item,
+    .fifth-main-container {
         flex-direction: column;
         height: auto;
         width: 360px;
@@ -441,14 +536,91 @@ body {
         height: 289px;
         flex-shrink: 0;
     }
+
     .third-sec-box-2 {
         width: 280px;
         height: 289px;
         flex-shrink: 0;
     }
+
     .third-sec-box-3 {
         width: 280px;
         height: 289px;
         flex-shrink: 0;
     }
+
+    /* fifth section related styles */
+    .fifth-container {
+        width: 290px;
+        height: auto;
+    }
+    .fifth-img {
+        width: 380px;
+        height: 330px;
+    }
+    .sub-input input[type="text"],
+    .sub-input [type="email"] {
+        display: block;
+        margin-bottom: 25px;
+        padding: 12px 24px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        border: 0;
+        width: 250px;
+        height: 52px;
+    }
+
+    .sub-title {
+        color: #131318;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .sub-blog {
+        color: #5A5A5D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+
+
+    .sub-off {
+        position: relative;
+        bottom: 115px;
+        left: 165px;
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+    }
+
+    .sub-off>h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 5px;
+
+    }
+
+    .sub-off>h1 {
+        color: #FFF;
+        font-size: 21.138px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin: 0;
+        padding: 5px;
+    }
+
+
+
+
 }
