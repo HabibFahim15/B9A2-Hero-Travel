@@ -474,6 +474,12 @@ body {
     margin-right: 20px;
 }
 
+/* optional related styles */
+.popular-video {
+    height: 550px;
+    width: 600px;
+    padding: 24px;
+}
 
 /* responsive the website for mobile */
 @media screen and (max-width:576px) {
@@ -554,6 +560,15 @@ body {
     .popular-img {
         width: 335px;
         height: 483px;
+    }
+    .popular-video{
+        width: 335px;
+        height: 483px;
+    }
+    
+    .popular-video > video{
+        width: 100%;
+        height: 100%;
     }
 
     .popular-img>img {
